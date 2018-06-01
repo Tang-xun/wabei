@@ -4,7 +4,7 @@
 
 ## todolist
 
--[ ] ui
--[ ] ethereum accounts manager
--[ ] block info scanf    
+- [ ] ui
+- [ ] ethereum accounts manager
+- [ ] block info scanf    
 
