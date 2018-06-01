@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyman="http://schemas.android.com/apk/res/com.wabei"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/content_viewpage"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal" >
+
+        <com.wabei.ui.ChangeColorTextView
+            android:id="@+id/tab_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            hyman:icon="@drawable/tab_chat_normal"
+            hyman:text="@string/tab_chat"
+            hyman:text_size="12sp"
+            hyman:color="#ff45c01a" />
+
+        <com.wabei.ui.ChangeColorTextView
+            android:id="@+id/tab_contact"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            hyman:icon="@drawable/tab_contact_normal"
+            hyman:text="@string/tab_contact"
+            hyman:text_size="12sp"
+            hyman:color="#ff45c01a" />
+
+        <com.wabei.ui.ChangeColorTextView
+            android:id="@+id/tab_found"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            hyman:icon="@drawable/tab_found_normal"
+            hyman:text="@string/tab_found"
+            hyman:text_size="12sp"
+            hyman:color="#ff45c01a" />
+
+        <com.wabei.ui.ChangeColorTextView
+            android:id="@+id/tab_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            hyman:bt_icon="@drawable/tab_self_normal"
+            hyman:text="@string/tab_me"
+            hyman:text_size="12sp"
+            hyman:color="#ff45c01a" />
+    </LinearLayout>
+
+</LinearLayout>

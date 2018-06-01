@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/chat_action_back"
+        android:icon="@drawable/ic_back"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/chat_title"
+        android:icon="@null"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+</menu>
