@@ -1,2 +1,10 @@
-# wabei
-ethereum andorid light wallet 
+# wabei-wallet
+
+* ethereum andorid light wallet 
+
+## todolist
+
+-[ ] ui
+-[ ] ethereum accounts manager
+-[ ] block info scanf    
+
